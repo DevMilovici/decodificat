@@ -1,2 +1,2 @@
-# decodificat
-Information technology platform
+# DECODIFICAT
+## Information technology platform
