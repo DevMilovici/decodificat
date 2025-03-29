@@ -183,6 +183,7 @@ export const Posts: CollectionConfig<'posts'> = {
           },
         ],
       },
+      hidden: true
     },
     {
       name: 'authors',
@@ -192,6 +193,7 @@ export const Posts: CollectionConfig<'posts'> = {
       },
       hasMany: true,
       relationTo: 'users',
+      hidden: true
     },
     // This field is only used to populate the user data via the `populateAuthors` hook
     // This is because the `user` collection has access control locked to protect user privacy
