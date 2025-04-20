@@ -598,6 +598,11 @@ dist
 /.idea/*
 !/.idea/runConfigurations
 !/.idea/payload.iml
+.pnpm-store/
+pnpm-lock.yaml
+
+# Postgres volume
+data/
 
 # Custom actions
 !.github/actions/**/dist

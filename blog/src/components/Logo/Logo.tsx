@@ -17,13 +17,13 @@ export const Logo = (props: Props) => {
     /* eslint-disable @next/next/no-img-element */
     <img
       alt="DECODIFICAT"
-      width={193}
-      height={34}
+      width={223}
+      height={54}
       loading={loading}
       fetchPriority={priority}
       decoding="async"
-      className={clsx('max-w-[9.375rem] w-full h-[34px]', className)}
-      src="/decodificat.png"
+      className={clsx('max-w-[9.375rem] w-full h-[54px]', className)}
+      src="/decodificat_text_man_logo.png"
     />
   )
 }
